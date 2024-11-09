@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.HomePage"
+             BackgroundColor="#36635E"
+             Title="Home Page">
+    <VerticalStackLayout>
+        <Label Text="Bienvenido a la página de inicio"
+               VerticalOptions="Center"
+               HorizontalOptions="Center" />
+        <Button Text="Pedir Turno"
+        Clicked="OnPedirTurnoButtonClicked"
+        BackgroundColor="#FFFFFF"
+        TextColor="#36635E"
+        FontAttributes="Bold"
+        WidthRequest="200"
+        Margin="0,20,0,0"
+        CornerRadius="10"/>
+    </VerticalStackLayout>
+</ContentPage>

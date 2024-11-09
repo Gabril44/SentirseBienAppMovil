@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Login"
+             BackgroundColor="#36635E"
+             Title="Login">
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+
+        <!-- <Image Source="https://www.findool.com/images/avatars/avatar.png" WidthRequest="100" HeightRequest="100"/> -->
+        <Image Source="spa.ico" WidthRequest="100" HeightRequest="100"/>
+        <Label Text="Sentirse Bien"
+           FontAttributes="Bold"
+           FontSize="24"
+           HorizontalOptions="Center"
+           TextColor="White"/>
+
+
+        <Label Text="Bienvenido/a"
+           FontSize="18"
+           HorizontalOptions="Center"
+           Margin="0,10,0,20"
+           TextColor="White"/>
+
+
+        <HorizontalStackLayout Spacing="10">
+            <Image Source="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_user2-256.png" WidthRequest="24" HeightRequest="24"/>
+            <Entry x:Name ="usernameEntry" Placeholder="Nombre de usuario"
+               PlaceholderColor="Gray"
+               TextColor="Black"
+               BackgroundColor="White"
+               WidthRequest="200"/>
+        </HorizontalStackLayout>
+
+
+        <HorizontalStackLayout Spacing="10" Margin="0,10,0,0">
+            <Image Source="spa.ico" WidthRequest="24" HeightRequest="24"/>
+            <Entry x:Name ="passwordEntry" Placeholder="Contraseña"
+               IsPassword="True"
+               PlaceholderColor="Gray"
+               TextColor="Black"
+               BackgroundColor="White"
+               WidthRequest="200"/>
+        </HorizontalStackLayout>
+
+
+        <Button Text="Aceptar"
+            Clicked="OnLoginButtonClicked"
+            BackgroundColor="#FFFFFF"
+            TextColor="#36635E"
+            FontAttributes="Bold"
+            WidthRequest="200"
+            Margin="0,20,0,0"
+            CornerRadius="10"/>
+        <StackLayout>
+
+            <CheckBox IsChecked="False"/>
+            <Label Text="Recuerdame" TextColor="WhiteSmoke" FontSize="Small" VerticalTextAlignment="Center"/>
+
+        </StackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>
