@@ -16,5 +16,22 @@
         WidthRequest="200"
         Margin="0,20,0,0"
         CornerRadius="10"/>
+
+        <Button Text="Mis Turnos"
+        Clicked="OnMisTurnosClicked"
+        BackgroundColor="#FFFFFF"
+        TextColor="#36635E"
+        FontAttributes="Bold"
+        WidthRequest="200"
+        Margin="0,20,0,0"
+        CornerRadius="10"/>
+        <Button Text="Cerrar Sesión"
+        Clicked="OnCerrarSesionClicked"
+        BackgroundColor="#FFFFFF"
+        TextColor="#36635E"
+        FontAttributes="Bold"
+        WidthRequest="200"
+        Margin="0,20,0,0"
+        CornerRadius="10"/>
     </VerticalStackLayout>
 </ContentPage>

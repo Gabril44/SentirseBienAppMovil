@@ -4,31 +4,66 @@
              x:Class="MauiApp1.Views.PedirTurno"
              Title="PedirTurno">
     <VerticalStackLayout Padding="20">
-        <Label Text="Selecciona una opción:"
+
+        <!-- Título de selección de fecha -->
+        <Label Text="Selecciona una fecha:"
                FontSize="20"
-               HorizontalOptions="Center" />
+               HorizontalOptions="Center"
+               Margin="0,30,0,0" />
 
-        <Picker x:Name="myPicker"
-                Title="Selecciona una opción"
-                HorizontalOptions="FillAndExpand">
-            <Picker.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Opción 1</x:String>
-                    <x:String>Opción 2</x:String>
-                    <x:String>Opción 3</x:String>
-                    <x:String>Opción 4</x:String>
-                </x:Array>
-            </Picker.ItemsSource>
-        </Picker>
+        <!-- DatePicker para seleccionar la fecha -->
+        <DatePicker x:Name="datePicker"
+                    Format="D"
+                    HorizontalOptions="Center"
+                    DateSelected="OnDateSelected" />
 
-        <!-- Mostrar la opción seleccionada -->
-        <Label Text="Opción seleccionada:"
+        <!-- Mostrar la fecha seleccionada -->
+        <Label Text="Fecha seleccionada:"
                FontSize="18"
                HorizontalOptions="Center"
                Margin="0,20,0,0" />
-        <Label x:Name="selectedOptionLabel"
+        <Label x:Name="selectedDateLabel"
                FontSize="18"
                TextColor="DarkGreen"
                HorizontalOptions="Center" />
+
+        <!-- Título de selección de opción -->
+        <Label Text="Selecciona una opción:"
+       FontSize="20"
+       HorizontalOptions="Center" />
+
+        <Picker x:Name="myPicker"
+        Title="Selecciona un horario"
+        HorizontalOptions="FillAndExpand" />
+
+
+        <!-- Título de selección de opción -->
+        <Label Text="Selecciona una opción:"
+       FontSize="20"
+       HorizontalOptions="Center" />
+
+        <Picker x:Name="myPickerServicio"
+        Title="Selecciona un servicio"
+        HorizontalOptions="FillAndExpand" />
+
+
+        <!-- Título de selección de opción -->
+        <Label Text="Selecciona una opción:"
+       FontSize="20"
+       HorizontalOptions="Center" />
+
+        <Picker x:Name="myPickerProfesional"
+        Title="Selecciona un profesional"
+        HorizontalOptions="FillAndExpand" />
+
+        <Button Text="Aceptar"
+        Clicked="OnPedirTurnoButtonClicked"
+        BackgroundColor="#FFFFFF"
+        TextColor="#36635E"
+        FontAttributes="Bold"
+        WidthRequest="200"
+        Margin="30,20,0,0"
+        CornerRadius="10"/>
+
     </VerticalStackLayout>
 </ContentPage>

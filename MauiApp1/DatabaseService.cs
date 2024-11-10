@@ -12,8 +12,9 @@ namespace MauiApp1
         
             private string connectionString = "Server=boxb4cfvsxmkcnxhmkbk-mysql.services.clever-cloud.com;Database=boxb4cfvsxmkcnxhmkbk;User=u8qzi582zuyygfde;Password=dqOUuQMxD7eohFZHPCZL;";
 
-            public async Task<bool> LoginAsync(string username, string password)
-            {
+
+        public async Task<bool> LoginAsync(string username, string password)
+        {
                 bool isAuthenticated = false;
 
                 try
@@ -41,7 +42,10 @@ namespace MauiApp1
                 }
 
                 return isAuthenticated;
-            }
+        }
+
+        public string getConnectionString() { return connectionString; }
+
         
     }
 }

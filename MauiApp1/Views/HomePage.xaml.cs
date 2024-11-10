@@ -10,6 +10,16 @@ public partial class HomePage : ContentPage
     private async void OnPedirTurnoButtonClicked(object sender, EventArgs e) 
 	{
         DisplayAlert("Hiciste click!", "Vamos a la pagina para pedir turno", "OK");
-        Navigation.PushAsync(new Views.PedirTurno());
+        await Navigation.PushAsync(new Views.PedirTurno());
+    }
+
+    private async void OnCerrarSesionClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new Login());
+    }
+
+    private async void OnMisTurnosClicked(object sender, EventArgs e) 
+    {
+        await Navigation.PushAsync(new Views.MisTurnos());
     }
 }
