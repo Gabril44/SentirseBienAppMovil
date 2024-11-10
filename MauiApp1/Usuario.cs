@@ -8,11 +8,11 @@ namespace MauiApp1
 {
     public class Usuario
     {
-        private int idusuario {  get; set; }
-        private string nombre { get; set; }
-        private string correo { get; set; }
-        private string password { get; set; }
-        private int rol { get; set; }
-        private string user { get; set; }
+        public int idusuario {  get; set; }
+        public string nombre { get; set; }
+        public string correo { get; set; }
+        public string password { get; set; }
+        public int rol { get; set; }
+        public string user { get; set; }
     }
 }
