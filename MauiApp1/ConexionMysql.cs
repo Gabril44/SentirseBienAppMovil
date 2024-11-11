@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SentirseBien
+namespace MauiApp1
 {
     public class ConexionMysql : Conexion
     {

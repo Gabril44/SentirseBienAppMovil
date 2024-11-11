@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SentirseBien
+namespace MauiApp1
 {
     internal class TurnoConsultas
     {
@@ -63,6 +63,7 @@ namespace SentirseBien
                             turno.nombre_usuario = reader.GetString("nombre_usuario");
                             turno.fecha = reader.GetString("fecha");
                             turno.servicio = reader.GetString("servicio");
+                            Console.WriteLine("Servicio: "+turno.servicio);
                             turno.profesional = reader.GetString("profesional");
                             turnos.Add(turno);
                         }

@@ -26,7 +26,7 @@
                             <Label Text="{Binding nombre_usuario}" 
                                    FontAttributes="Bold"
                                    FontSize="18" 
-                                   TextColor="Black" />
+                                   TextColor="White" />
 
                             <Label Text="{Binding fecha}"
                                    FontSize="16"
@@ -34,11 +34,17 @@
 
                             <Label Text="{Binding servicio}"
                                    FontSize="16"
-                                   TextColor="Black" />
+                                   TextColor="White" />
 
                             <Label Text="{Binding profesional}"
                                    FontSize="16"
                                    TextColor="DarkGreen" />
+                            <!-- Botón para pagar -->
+                            <Button Text="Pagar"
+                                    BackgroundColor="Green"
+                                    TextColor="White"
+                                    Command="{Binding BindingContext.PagarCommand, Source={x:Reference Name=ContentPage}}"
+                                    CommandParameter="{Binding .}" />
                         </StackLayout>
                     </Frame>
                 </DataTemplate>

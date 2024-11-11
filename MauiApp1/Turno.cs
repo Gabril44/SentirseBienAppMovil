@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SentirseBien
+namespace MauiApp1
 {
     public class Turno
     {
@@ -13,6 +13,7 @@ namespace SentirseBien
         public string fecha {  get; set; }
         public string servicio { get; set; }
         public string profesional { get; set; }
+        public bool TienePagoPendiente { get; set; }
 
 
     }

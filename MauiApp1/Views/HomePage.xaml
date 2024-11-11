@@ -25,6 +25,16 @@
         WidthRequest="200"
         Margin="0,20,0,0"
         CornerRadius="10"/>
+        
+        <Button Text="Pagar"
+        Clicked="OnPagarClicked"
+        BackgroundColor="#FFFFFF"
+        TextColor="#36635E"
+        FontAttributes="Bold"
+        WidthRequest="200"
+        Margin="0,20,0,0"
+        CornerRadius="10"/>
+
         <Button Text="Cerrar Sesión"
         Clicked="OnCerrarSesionClicked"
         BackgroundColor="#FFFFFF"
