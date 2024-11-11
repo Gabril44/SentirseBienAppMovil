@@ -76,3 +76,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.Perfil.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Perfil.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Perfil.xaml
+
+[C:/Users/ASUS/source/repos/MauiApp1/MauiApp1/Views/RealizarPago.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Views.RealizarPago.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RealizarPago.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RealizarPago.xaml

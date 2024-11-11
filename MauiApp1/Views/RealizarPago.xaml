@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.RealizarPago"
+             Title="RealizarPago">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Imagen de tarjeta -->
+            <Image Source="tarjeta.png"
+                   HorizontalOptions="Center"
+                   HeightRequest="150"
+                   Margin="0,20,0,20"/>
+
+            <!-- Número de tarjeta -->
+            <Label Text="Número de Tarjeta"
+                   FontAttributes="Bold"
+                   TextColor="#333"
+                   FontSize="16"/>
+            <Entry Placeholder="1234 5678 9012 3456"
+                   Keyboard="Numeric"
+                   MaxLength="19"
+                   TextColor="Black"
+                   BackgroundColor="White"/>
+
+            <!-- Nombre del Titular -->
+            <Label Text="Nombre del Titular"
+                   FontAttributes="Bold"
+                   TextColor="#333"
+                   FontSize="16"/>
+            <Entry Placeholder="Nombre como figura en la tarjeta"
+                   TextColor="Black"
+                   BackgroundColor="White"/>
+
+            <!-- Fecha de vencimiento -->
+            <Label Text="Fecha de Vencimiento (MM/AA)"
+                   FontAttributes="Bold"
+                   TextColor="#333"
+                   FontSize="16"/>
+            <Entry Placeholder="MM/AA"
+                   MaxLength="5"
+                   Keyboard="Numeric"
+                   TextColor="Black"
+                   BackgroundColor="White"/>
+
+            <!-- Código de Seguridad (CVV) -->
+            <Label Text="Código de Seguridad (CVV)"
+                   FontAttributes="Bold"
+                   TextColor="#333"
+                   FontSize="16"/>
+            <Entry Placeholder="123"
+                   Keyboard="Numeric"
+                   MaxLength="3"
+                   IsPassword="True"
+                   TextColor="Black"
+                   BackgroundColor="White"/>
+
+            <!-- Botón para confirmar el pago -->
+            <Button Text="Confirmar Pago"
+                    Clicked="OnConfirmarPagoClicked"
+                    BackgroundColor="#36635E"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    HeightRequest="50"
+                    VerticalOptions="EndAndExpand"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

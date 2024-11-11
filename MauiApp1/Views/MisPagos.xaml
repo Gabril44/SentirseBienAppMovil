@@ -7,7 +7,7 @@
     <ContentPage.BindingContext>
         <local:PagoViewModel />
     </ContentPage.BindingContext>
-
+    <ScrollView>
     <VerticalStackLayout Padding="20">
         <Label Text="Pagos pendientes"
             FontSize="24"
@@ -53,6 +53,7 @@
 
                             <!-- Botón para pagar -->
                             <Button Text="Pagar"
+                                 Clicked="OnPagarButtonClicked"
                                  BackgroundColor="Green"
                                  TextColor="White"
                                  Command="{Binding BindingContext.PagarCommand, Source={x:Reference Name=ContentPage}}"
@@ -63,4 +64,5 @@
             </CollectionView.ItemTemplate>
         </CollectionView>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
