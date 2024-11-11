@@ -21,13 +21,13 @@ namespace MauiApp1
 
         public ObservableCollection<Pago> getPago(string filtro)
         {
-            string QUERY = "SELECT * FROM pagos WHERE estado = 'pendiente AND'";
+            string QUERY = "SELECT * FROM pagos WHERE estado = 'pendiente' AND id_usuario = "+App.usuariologeado.idusuario;
             MySqlDataReader reader = null;
             try
             {
                 if (filtro != "")
                 {
-                    QUERY += " WHERE " +
+                    QUERY += " AND (" +
                         "numeropago LIKE '%" + filtro + "%' OR " +
                         "monto LIKE '%" + filtro + "%' OR " +
                         "nombrecliente LIKE '%" + filtro + "%' OR " +
@@ -36,7 +36,8 @@ namespace MauiApp1
                         "estado LIKE '%" + filtro + "%' OR " +
                         "id_usuario LIKE '%" + filtro + "%' OR " +
                         "fechalimite LIKE '%" + filtro + "%' OR " +
-                        "servicio LIKE '%" + filtro + "%';";
+                        "servicio LIKE '%" + filtro + "%' OR " +
+                        "profesional LIKE '%" + filtro + "%')";
                 }
 
                 MySqlCommand comando = new MySqlCommand(QUERY);

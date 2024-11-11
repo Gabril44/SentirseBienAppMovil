@@ -39,12 +39,6 @@
                             <Label Text="{Binding profesional}"
                                    FontSize="16"
                                    TextColor="DarkGreen" />
-                            <!-- Botón para pagar -->
-                            <Button Text="Pagar"
-                                    BackgroundColor="Green"
-                                    TextColor="White"
-                                    Command="{Binding BindingContext.PagarCommand, Source={x:Reference Name=ContentPage}}"
-                                    CommandParameter="{Binding .}" />
                         </StackLayout>
                     </Frame>
                 </DataTemplate>

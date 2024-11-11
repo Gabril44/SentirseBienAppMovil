@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\views\\mispagos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\views\\mispagos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\views\\misturnos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\views\\misturnos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\login.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\pagosconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pagosconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\pagoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pagoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\turnoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,18 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\views\\mispagos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\views\\mispagos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\pagoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\pagoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\views\\misturnos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|solutionrelative:mauiapp1\\views\\misturnos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA74C21F-5982-48AC-8E93-E87C2C26133D}|MauiApp1\\MauiApp1.csproj|c:\\users\\asus\\source\\repos\\mauiapp1\\mauiapp1\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +54,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MisPagos.xaml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Views\\MisPagos.xaml",
-              "RelativeDocumentMoniker": "MauiApp1\\Views\\MisPagos.xaml",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Views\\MisPagos.xaml",
-              "RelativeToolTip": "MauiApp1\\Views\\MisPagos.xaml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\Views\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Views\\HomePage.xaml",
+              "RelativeToolTip": "MauiApp1\\Views\\HomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-11T02:16:59.703Z",
+              "WhenOpened": "2024-11-11T13:57:19.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "PagoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\PagoViewModel.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\PagoViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\PagoViewModel.cs",
+              "RelativeToolTip": "MauiApp1\\PagoViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wCEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T02:14:01.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TurnoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\TurnoViewModel.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\TurnoViewModel.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\TurnoViewModel.cs",
+              "RelativeToolTip": "MauiApp1\\TurnoViewModel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T02:13:32.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Login.xaml.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\Login.xaml.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Login.xaml.cs",
+              "RelativeToolTip": "MauiApp1\\Login.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBkAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T13:20:35.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PagosConsulta.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\PagosConsulta.cs",
+              "RelativeDocumentMoniker": "MauiApp1\\PagosConsulta.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\PagosConsulta.cs",
+              "RelativeToolTip": "MauiApp1\\PagosConsulta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T13:16:26.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Pago.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Pago.cs",
               "RelativeDocumentMoniker": "MauiApp1\\Pago.cs",
@@ -72,59 +132,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "MisPagos.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Views\\MisPagos.xaml",
+              "RelativeDocumentMoniker": "MauiApp1\\Views\\MisPagos.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Views\\MisPagos.xaml",
+              "RelativeToolTip": "MauiApp1\\Views\\MisPagos.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T02:16:59.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MisTurnos.xaml",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Views\\MisTurnos.xaml",
               "RelativeDocumentMoniker": "MauiApp1\\Views\\MisTurnos.xaml",
               "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Views\\MisTurnos.xaml",
               "RelativeToolTip": "MauiApp1\\Views\\MisTurnos.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-11T02:16:38.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TurnoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\TurnoViewModel.cs",
-              "RelativeDocumentMoniker": "MauiApp1\\TurnoViewModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\TurnoViewModel.cs",
-              "RelativeToolTip": "MauiApp1\\TurnoViewModel.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:13:32.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PagoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\PagoViewModel.cs",
-              "RelativeDocumentMoniker": "MauiApp1\\PagoViewModel.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\PagoViewModel.cs",
-              "RelativeToolTip": "MauiApp1\\PagoViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:14:01.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PagosConsulta.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\PagosConsulta.cs",
-              "RelativeDocumentMoniker": "MauiApp1\\PagosConsulta.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\PagosConsulta.cs",
-              "RelativeToolTip": "MauiApp1\\PagosConsulta.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T02:13:27.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Turno.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\MauiApp1\\MauiApp1\\Turno.cs",
               "RelativeDocumentMoniker": "MauiApp1\\Turno.cs",

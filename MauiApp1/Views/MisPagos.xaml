@@ -9,7 +9,7 @@
     </ContentPage.BindingContext>
 
     <VerticalStackLayout Padding="20">
-        <Label Text="Mis Pagos"
+        <Label Text="Pagos pendientes"
             FontSize="24"
             HorizontalOptions="Center"
             Margin="0,0,0,10"
@@ -22,7 +22,7 @@
                     <!-- Diseño de cada turno en la lista -->
                     <Frame BorderColor="Gray" CornerRadius="10" Margin="5" Padding="10">
                         <StackLayout>
-                            <Label Text="{Binding monto}" 
+                            <Label Text="{Binding monto, StringFormat='${0:N2} -> ¡10% OFF PAGANDO CON LA APP!'}" 
                                 FontAttributes="Bold"
                                 FontSize="18" 
                                 TextColor="White" />
@@ -34,20 +34,19 @@
                             <Label Text="{Binding fecha}"
                                 FontSize="16"
                                 TextColor="White" />
-
-                            <Label Text="{Binding medio_de_pago}"
-                                FontSize="16"
-                                TextColor="DarkGreen" />
                             
                             <Label Text="{Binding estado}"
                                 FontSize="16"
-                                TextColor="White" />
+                                TextColor="DarkGreen" />
+                            
                             <Label Text="{Binding fechalimite}"
                                 FontSize="16"
                                 TextColor="White" />
+                            
                             <Label Text="{Binding servicio}"
                                 FontSize="16"
                                 TextColor="White" />
+                            
                             <Label Text="{Binding profesional}"
                                 FontSize="16"
                                 TextColor="White" />

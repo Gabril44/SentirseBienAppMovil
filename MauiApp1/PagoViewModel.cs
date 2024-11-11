@@ -10,7 +10,7 @@ namespace MauiApp1
 {
     public class PagoViewModel
     {
-        public ObservableCollection<Turno> ListaPagos { get; set; } = new ObservableCollection<Turno>();
+        public ObservableCollection<Pago> ListaPagos { get; set; } = new ObservableCollection<Pago>();
         public ICommand PagarCommand { get; }
 
         public PagoViewModel()
@@ -25,14 +25,14 @@ namespace MauiApp1
 
         private void CargarPago(string filtro = "")
         {
-            TurnoConsultas turnoConsultas = new TurnoConsultas();
-            var turnos = turnoConsultas.getTurno(filtro);
+            PagosConsulta pagosConsultas = new PagosConsulta();
+            var pagos = pagosConsultas.getPago(filtro);
 
             // Limpia y carga los turnos en la colección observable
             ListaPagos.Clear();
-            foreach (var turno in turnos)
+            foreach (var pago in pagos)
             {
-                ListaPagos.Add(turno);
+                ListaPagos.Add(pago);
             }
         }
     }

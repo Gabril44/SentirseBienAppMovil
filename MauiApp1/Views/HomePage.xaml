@@ -5,9 +5,21 @@
              BackgroundColor="#36635E"
              Title="Home Page">
     <VerticalStackLayout>
-        <Label Text="Bienvenido a la página de inicio"
+        <Label Text="¡10% OFF PAGANDO CON LA APP!"
+               BackgroundColor="#FFD700"
+               TextColor="#36635E"
+               FontAttributes="Bold"
+               FontSize="20"
+               HorizontalOptions="Center"
+               VerticalOptions="Start"
+               Padding="10"
+               Margin="0,10,0,10"/>
+
+
+            <Label Text="Bienvenido a la página de inicio"
                VerticalOptions="Center"
                HorizontalOptions="Center" />
+        
         <Button Text="Pedir Turno"
         Clicked="OnPedirTurnoButtonClicked"
         BackgroundColor="#FFFFFF"

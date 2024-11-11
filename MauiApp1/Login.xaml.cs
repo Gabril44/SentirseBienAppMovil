@@ -20,14 +20,23 @@ public partial class Login : ContentPage
 
         if (usuario != null)
         {
-            App.usuariologeado = usuario;  // Establece el usuario logueado 
-            await DisplayAlert("Éxito", "Inicio de sesión exitoso", "OK");
-            await Navigation.PushAsync(new Views.HomePage());
+            App.usuariologeado = usuario;  // Establece el usuario logueado
+            if (App.usuariologeado.rol == 1) 
+            {
+                await DisplayAlert("Solo para clientes", "Hola, esta app es solo para clientes!", "OK");
+            }
+            else 
+            {
+                await DisplayAlert("Éxito", "Inicio de sesión exitoso", "OK");
+                await Navigation.PushAsync(new Views.HomePage());
+            }
+
         }
         else
         {
             await DisplayAlert("Error", "Usuario o contraseña incorrectos", "OK");
         }
     }
+
 
 }
