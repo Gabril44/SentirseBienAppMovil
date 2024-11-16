@@ -52,13 +52,13 @@
                                 TextColor="White" />
 
                             <!-- Botón para pagar -->
-                            <Button Text="Pagar"
+                                <Button Text="{Binding monto, StringFormat='${0:N2} ->¡10% OFF PAGANDO CON LA APP!'}"
                                  Clicked="OnPagarButtonClicked"
                                  BackgroundColor="Green"
                                  TextColor="White"
                                  Command="{Binding BindingContext.PagarCommand, Source={x:Reference Name=ContentPage}}"
                                  CommandParameter="{Binding .}" />
-                        </StackLayout>
+                            </StackLayout>
                     </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

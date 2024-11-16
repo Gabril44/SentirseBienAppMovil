@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.Views.PedirTurno"
              Title="PedirTurno">
+    <ScrollView>
     <VerticalStackLayout Padding="20">
 
         <!-- Título de selección de fecha -->
@@ -29,34 +30,66 @@
 
         <!-- Título de selección de opción -->
         <Label Text="Selecciona una opción:"
-       FontSize="20"
-       HorizontalOptions="Center" />
+                FontSize="20"
+                HorizontalOptions="Center" />
 
         <Picker x:Name="myPicker"
-        Title="Selecciona un horario"
-        HorizontalOptions="FillAndExpand" />
+                Title="Selecciona un horario"
+                HorizontalOptions="FillAndExpand"
+                SelectedIndexChanged="OnPickerSelectedIndexChanged" />
+        <!-- Suscripción al evento -->
+
+        <!-- Mostrar el horario seleccionado -->
+         <Label Text="Horario Seleccionado:"
+                FontSize="18"
+                HorizontalOptions="Center"
+                Margin="0,20,0,0" />
+         <Label x:Name="selectedHourLabel"
+                FontSize="18"
+                TextColor="DarkGreen"
+                HorizontalOptions="Center" />
 
 
-        <!-- Título de selección de opción -->
+            <!-- Título de selección de opción -->
         <Label Text="Selecciona una opción:"
        FontSize="20"
        HorizontalOptions="Center" />
 
         <Picker x:Name="myPickerServicio"
         Title="Selecciona un servicio"
-        HorizontalOptions="FillAndExpand" />
+        HorizontalOptions="FillAndExpand" 
+        SelectedIndexChanged="OnServicePickerSelectedIndexChanged"/>
+            <!-- Mostrar el servicio seleccionado -->
+            <Label Text="Servicio seleccionado:"
+        FontSize="18"
+        HorizontalOptions="Center"
+        Margin="0,20,0,0" />
+            <Label x:Name="selectedServiceLabel"
+        FontSize="18"
+        TextColor="DarkGreen"
+        HorizontalOptions="Center" />
 
 
-        <!-- Título de selección de opción -->
+            <!-- Título de selección de opción -->
         <Label Text="Selecciona una opción:"
        FontSize="20"
        HorizontalOptions="Center" />
 
         <Picker x:Name="myPickerProfesional"
         Title="Selecciona un profesional"
-        HorizontalOptions="FillAndExpand" />
+        HorizontalOptions="FillAndExpand" 
+        SelectedIndexChanged="OnProfesionalPickerSelectedIndexChanged"/>
+            <!-- Mostrar el Profesional seleccionado -->
+            <Label Text="Servicio seleccionado:"
+        FontSize="18"
+        HorizontalOptions="Center"
+        Margin="0,20,0,0" />
+            <Label x:Name="selectedProfesionalLabel"
+        FontSize="18"
+        TextColor="DarkGreen"
+        HorizontalOptions="Center" />
 
-        <Button Text="Aceptar"
+            <Button Text="Aceptar"
         Clicked="OnPedirTurnoButtonClicked"
         BackgroundColor="#FFFFFF"
         TextColor="#36635E"
@@ -66,4 +99,5 @@
         CornerRadius="10"/>
 
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

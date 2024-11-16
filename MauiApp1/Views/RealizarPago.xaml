@@ -3,19 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.Views.RealizarPago"
              Title="RealizarPago">
+       
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="15">
 
             <!-- Imagen de tarjeta -->
-            <Image Source="tarjeta.png"
-                   HorizontalOptions="Center"
-                   HeightRequest="150"
-                   Margin="0,20,0,20"/>
+            <Frame BackgroundColor="White" BorderColor="Transparent" Padding="0" HasShadow="False">
+                <Image Source="tarjeta.png"
+           HorizontalOptions="Center"
+           HeightRequest="150"
+           Margin="0,20,0,20"/>
+            </Frame>
+
+            <Label x:Name="TotalLabel"
+               FontAttributes="Bold"
+               TextColor="White"
+               FontSize="16"/>
 
             <!-- Número de tarjeta -->
             <Label Text="Número de Tarjeta"
                    FontAttributes="Bold"
-                   TextColor="#333"
+                   TextColor="white"
                    FontSize="16"/>
             <Entry Placeholder="1234 5678 9012 3456"
                    Keyboard="Numeric"
@@ -26,7 +34,7 @@
             <!-- Nombre del Titular -->
             <Label Text="Nombre del Titular"
                    FontAttributes="Bold"
-                   TextColor="#333"
+                   TextColor="White"
                    FontSize="16"/>
             <Entry Placeholder="Nombre como figura en la tarjeta"
                    TextColor="Black"
@@ -35,7 +43,7 @@
             <!-- Fecha de vencimiento -->
             <Label Text="Fecha de Vencimiento (MM/AA)"
                    FontAttributes="Bold"
-                   TextColor="#333"
+                   TextColor="White"
                    FontSize="16"/>
             <Entry Placeholder="MM/AA"
                    MaxLength="5"
@@ -46,7 +54,7 @@
             <!-- Código de Seguridad (CVV) -->
             <Label Text="Código de Seguridad (CVV)"
                    FontAttributes="Bold"
-                   TextColor="#333"
+                   TextColor="White"
                    FontSize="16"/>
             <Entry Placeholder="123"
                    Keyboard="Numeric"

@@ -13,11 +13,15 @@ namespace MauiApp1
         public ObservableCollection<Pago> ListaPagos { get; set; } = new ObservableCollection<Pago>();
         public ICommand PagarCommand { get; }
 
+        public Pago pagoseleccionado;
+
         public PagoViewModel()
         {
+            ListaPagos = new ObservableCollection<Pago>();
             PagarCommand = new Command<Pago>(Pagar);
             CargarPago();
         }
+        
         private void Pagar(Pago pago)
         {
             Console.WriteLine($"Pagar turno de {pago.nombre_cliente} por el servicio {pago.servicio}");
